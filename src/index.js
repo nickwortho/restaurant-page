@@ -1,4 +1,8 @@
 import "./styles.css"
-import { initial } from "./initial.js";
+import { home } from "./home.js";
+import { menu } from "./menu.js";
+import { events } from "./events.js";
+import { about } from "./about.js";
+import { contact } from "./contact.js";
 
-initial();
+home();
