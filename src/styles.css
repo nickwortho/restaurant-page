@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(129, 22, 22);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header nav {
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav button {
+    padding: 8px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
